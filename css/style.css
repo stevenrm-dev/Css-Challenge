@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+body * {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: #d8d8d8;
+    font-weight: 400;
+}
+
+.btn-container, .btn-container2 {
+  background-color: #e6e6e6;
+  width: 350px;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  padding: 1.1rem 2.9rem;
+  border-radius: .7rem;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: .1rem solid #9e9e9e;
+}
+.btn-color, .btn-gradient {
+  background-color: #3d2f23;
+  border: none;
+  color: #fff;
+}
+
+.btn-container2 {
+  margin: 2rem 0;
+  background-color: #7c44e3;
+}
+
+.btn-gradient {
+  border-radius: 10rem;
+  background: rgb(252,237,69);
+background: linear-gradient(48deg, rgba(252,237,69,1) 0%, rgba(252,140,69,1) 100%);
+}
+
+.info-container {
+  background-color: #3d2f23;
+  width: 420px;
+  border-radius: 1.5rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2;
+  margin: 0 auto;
+}
+
+.info-time {
+  margin-top: 0;
+}
+
+.fa-arrow-circle-down {
+  font-size: 1.8rem;
+}
+
+.mail-container {
+  background-color: #e6e6e6;
+  width: 380px;
+  border-radius: .3rem;
+  border: .13rem solid #bfbfbf;
+  padding: 1.1rem 1.2rem;
+  display: flex;
+  align-items: center;
+  color: #bfbfbf;
+  margin: 2rem 0;
+}
+
+.mail-input {
+  margin-left: 1rem;
+  font-weight: 600;
+  letter-spacing: .05rem;
+   background-color: transparent;
+  border: none;
+}
+
+.mail-input::placeholder {
+  color: #bfbfbf;
+}
+
+.profile-container {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fa-chevron-circle-down {
+  color: #ff6333;
+  font-size: 2.9rem;
+}
+
+.profile-container .profile-input {
+  border-radius: 5rem;
+  border: .1rem solid #bfbfbf;
+  color: #bfbfbf;
+  padding: .5rem 0 .5rem .8rem;
+  max-width: 6rem;
+}
+
+.profile-container .profile-input::placeholder {
+  font-family: 'fontawesome', 'roboto';
+  color: #bfbfbf;
+}
+
+.profile-container .profile-input:focus {
+  outline: none;
+}
+
+.profile-img {
+  border-radius: 10rem;
+  width: 3.4rem;
+  height: 3.5rem;
+  object-fit: cover;
+}
